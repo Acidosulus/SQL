@@ -1,3 +1,136 @@
+CREATE TABLE atom_khk_ul.dbo.Документ_202311_before (
+	ROW_ID int NULL,
+	Папки int DEFAULT -10 NULL,
+	Папки_ADD int DEFAULT 1 NULL,
+	[Тип документа] smallint NULL,
+	[Группа нумерации] int NULL,
+	Дата datetime NULL,
+	Номер int NULL,
+	Лицо1 int DEFAULT -1 NULL,
+	Лицо2 int DEFAULT -1 NULL,
+	Лицо3 int DEFAULT -1 NULL,
+	[Правила-Документы] int DEFAULT -1 NULL,
+	Очередность int NULL,
+	Акцепт int NULL,
+	Цвет tinyint NULL,
+	[Вид платежа] int NULL,
+	ВидСчета int NULL,
+	Срок datetime NULL,
+	[Окончания срок] datetime NULL,
+	[Р/с-Платежи] int DEFAULT -1 NULL,
+	[Наш р/с-Платежи] int DEFAULT -1 NULL,
+	Тема varchar(256) COLLATE Cyrillic_General_CI_AS NULL,
+	[_Автор] int NULL,
+	Состояние int NULL,
+	Сумма numeric(29,2) NULL,
+	Курс float NULL,
+	[$Сумма] float NULL,
+	Примечание varchar(256) COLLATE Cyrillic_General_CI_AS NULL,
+	Сумма2 float NULL,
+	Параметры image NULL,
+	Сумма1 float NULL,
+	Сумма3 float NULL,
+	Приложение varchar(256) COLLATE Cyrillic_General_CI_AS NULL,
+	РасчМесяц datetime NULL,
+	Кол_во int NULL,
+	[Источник-Платежи] int DEFAULT -1 NULL,
+	[Документы-Договор] int DEFAULT -1 NULL,
+	Аналитика varchar(256) COLLATE Cyrillic_General_CI_AS NULL,
+	Сторнирование int DEFAULT -10 NULL,
+	ФР varchar(256) COLLATE Cyrillic_General_CI_AS NULL,
+	[Платеж-Выписка] int DEFAULT -10 NULL,
+	[Платеж-Выписка_ADD] int DEFAULT 1 NULL,
+	[Вид операции] int DEFAULT -1 NULL,
+	Время datetime NULL,
+	[Дата распределения] datetime NULL,
+	ИсправлениеДата datetime NULL,
+	ИсправлениеНомер int NULL,
+	ПлатежПо datetime NULL,
+	ПлатежС datetime NULL,
+	[Тип операции] int DEFAULT -1 NULL,
+	[Чек-Ордер] int DEFAULT -1 NULL,
+	[Контрагент ФИО] varchar(256) COLLATE Cyrillic_General_CI_AS NULL,
+	[Контрагент документ] varchar(256) COLLATE Cyrillic_General_CI_AS NULL,
+	Основание varchar(256) COLLATE Cyrillic_General_CI_AS NULL,
+	Принял varchar(256) COLLATE Cyrillic_General_CI_AS NULL,
+	Сторнирование_ADD int DEFAULT 1 NULL,
+	[_ИД] varchar(256) COLLATE Cyrillic_General_CI_AS NULL,
+	[_Участок] int NULL,
+	old_id varchar(256) COLLATE Cyrillic_General_CI_AS NULL,
+	otd_id smallint NULL,
+	[Полный номер] varchar(256) COLLATE Cyrillic_General_CI_AS NULL,
+	[документ-сотрудники группы] int DEFAULT -1 NULL,
+	Зафиксирована int NULL,
+	Фискализирована int NULL,
+	НеФискалПлат int NULL,
+	[Вид оплаты] smallint DEFAULT 0 NULL,
+	[УК-Платежи] int DEFAULT -1 NULL,
+	ЕстьРазноскаЧистыйВоздух int NULL,
+);
+
+
+insert into atom_khk_ul.dbo.Документ_202311_before (row_id, Папки, Папки_ADD, [Тип документа], [Группа нумерации], Дата, Номер, Лицо1, Лицо2, Лицо3, [Правила-Документы], Очередность, Акцепт, Цвет, [Вид платежа], ВидСчета, Срок, [Окончания срок], [Р/с-Платежи], [Наш р/с-Платежи], Тема, [_Автор], Состояние, Сумма, Курс, [$Сумма], Примечание, Сумма2, Параметры, Сумма1, Сумма3, Приложение, РасчМесяц, Кол_во, [Источник-Платежи], [Документы-Договор], Аналитика, Сторнирование, ФР, [Платеж-Выписка], [Платеж-Выписка_ADD], [Вид операции], Время, [Дата распределения], ИсправлениеДата, ИсправлениеНомер, ПлатежПо, ПлатежС, [Тип операции], [Чек-Ордер], [Контрагент ФИО], [Контрагент документ], Основание, Принял, Сторнирование_ADD, [_ИД], [_Участок], old_id, otd_id, [Полный номер], [документ-сотрудники группы], Зафиксирована, Фискализирована, НеФискалПлат, [Вид оплаты], [УК-Платежи], ЕстьРазноскаЧистыйВоздух)
+select row_id, Папки, Папки_ADD, [Тип документа], [Группа нумерации], Дата, Номер, Лицо1, Лицо2, Лицо3, [Правила-Документы], Очередность, Акцепт, Цвет, [Вид платежа], ВидСчета, Срок, [Окончания срок], [Р/с-Платежи], [Наш р/с-Платежи], Тема, [_Автор], Состояние, Сумма, Курс, [$Сумма], Примечание, Сумма2, Параметры, Сумма1, Сумма3, Приложение, РасчМесяц, Кол_во, [Источник-Платежи], [Документы-Договор], Аналитика, Сторнирование, ФР, [Платеж-Выписка], [Платеж-Выписка_ADD], [Вид операции], Время, [Дата распределения], ИсправлениеДата, ИсправлениеНомер, ПлатежПо, ПлатежС, [Тип операции], [Чек-Ордер], [Контрагент ФИО], [Контрагент документ], Основание, Принял, Сторнирование_ADD, [_ИД], [_Участок], old_id, otd_id, [Полный номер], [документ-сотрудники группы], Зафиксирована, Фискализирована, НеФискалПлат, [Вид оплаты], [УК-Платежи], ЕстьРазноскаЧистыйВоздух from stack.[Документ]
+;
+
+
+
+
+select replace([Полный номер],'/'+substring(docs.[Примечание],1,charindex(' за декабрь 2023',docs.[Примечание])-2)+'-2023','-2023'),*
+from stack.[Документ] docs 
+where docs.[Тип документа] =1 and docs.[Дата]='2023-12-01' and docs.[Срок]='2023-12-25' and [Документы-Договор] in (select row_id from stack.[Договор] where Грузополучатель in (select row_id from stack.[Организации] where [Бюджет]=1));
+
+-- небюджетники
+update stack.[Документ] 
+set [Полный номер] = replace([Полный номер],'/'+substring([Примечание],1,charindex(' за декабрь 2023',[Примечание])-2)+'-2023','/40-2023'), [Примечание]='40% за декабрь 2023' 
+where [Тип документа] =1 and [Дата]='2023-12-01' and [Срок]='2023-12-25' and [Документы-Договор] not in (select row_id from stack.[Договор] where Грузополучатель in (select row_id from stack.[Организации] where [Бюджет]=1));
+
+-- бюджетники
+update stack.[Документ] 
+set [Полный номер] = replace([Полный номер],'/'+substring([Примечание],1,charindex(' за декабрь 2023',[Примечание])-2)+'-2023','-2023'), [Примечание]='40% за декабрь 2023' 
+where [Тип документа] =1 and [Дата]='2023-12-01' and [Срок]='2023-12-25' and [Документы-Договор] in (select row_id from stack.[Договор] where Грузополучатель in (select row_id from stack.[Организации] where [Бюджет]=1)) ;
+
+
+
+
+-- сетевые
+update stack.[Документ] 
+set [Полный номер] = replace([Полный номер],'/'+substring([Примечание],1,charindex(' за декабрь 2023',[Примечание])-2)+'-2023','/40-2023'), [Примечание]='40% за декабрь 2023' 
+where [Тип документа] =1 and [Дата]='2023-12-01' and [Срок]='2023-12-25' and [Документы-Договор] in (114103, 116582, 112925);
+
+
+select * from stack.[Документ] where [Документы-Договор] =  116602 and [Тип документа]=1 ;
+
+
+-- договора бюджетники
+select Номер from stack.[Договор] where Грузополучатель in (select row_id from stack.[Организации] where [Бюджет]=1);
+
+-- бекап графиков оплаты 2023 11
+CREATE TABLE atom_khk_ul.dbo.[График оплаты договора 202311] (
+	ROW_ID int NOT NULL,
+	Месяц datetime NULL,
+	[Сумма платежа] float NULL,
+	дополнительнаяСумма float NULL,
+	дополнительныйОбъем1 float NULL,
+	дополнительныйОбъем2 float NULL,
+	[График-Договор] int DEFAULT -1 NULL,
+	[День платежа] int NULL,
+	[Месяц платежа] int NULL,
+	[Тип графика] tinyint NULL,
+	процентДоговорнойВеличины int NULL,
+	процентСуммы int NULL,
+	[График-Услуга] int DEFAULT -1 NULL,
+	МесяцПо datetime NULL
+);
+insert into atom_khk_ul.dbo.[График оплаты договора 202311] (ROW_ID, Месяц, [Сумма платежа], дополнительнаяСумма, дополнительныйОбъем1, дополнительныйОбъем2, [График-Договор], [День платежа], [Месяц платежа], [Тип графика], процентДоговорнойВеличины, процентСуммы, [График-Услуга], МесяцПо)
+select ROW_ID, Месяц, [Сумма платежа], дополнительнаяСумма, дополнительныйОбъем1, дополнительныйОбъем2, [График-Договор], [День платежа], [Месяц платежа], [Тип графика], процентДоговорнойВеличины, процентСуммы, [График-Услуга], МесяцПо 
+from atom_khk_ul.stack.[График оплаты договора];
+-------------------------------
+
+with cur1 as  (select top 10 * from stack.Договор), cur2 as (select top 20 * from stack.Договор) select * from cur1 union all select * from cur2;
+
+
+
 select vid , max(Номер)
 from (
 select           agr.Номер, 
@@ -26,7 +159,7 @@ select           agr.Номер,
 
 
 -- бекап организаций
-CREATE TABLE dbo.Организации (
+CREATE TABLE dbo.#Организации11 (
   ROW_ID int NOT NULL,
   ИНН varchar(256) COLLATE Cyrillic_General_CI_AS NULL,
   Признаки int NULL,
