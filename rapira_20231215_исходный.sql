@@ -4,14 +4,22 @@
 --PreviousDay int
 --Date1_balance, Date2_balance 
 
+@set Date1_balance = '2023-08-01'
+@set DATE2_BALANCE = '2023-08-31'
+@set DATE1 = '2023-08-01'
+@set DATE2 = '2023-11-30'
+@set ANALYTICS = ''
+@set Connection_id = 3
+@set TYPE_ID = '1'
+
 drop table if exists temp_payment_day_max; 
 CREATE TEMPORARY TABLE temp_payment_day_max (contract_id int, date timestamptz);
 
 drop table if exists temp_contracts_all; 
 CREATE TEMPORARY TABLE temp_contracts_all (contract_id int);
 
-drop table if exists temp_all; 
-CREATE TEMPORARY TABLE temp_all (contract_id int, sum float, analytics varchar(100), document int, month_pay timestamptz, document_at timestamptz, billing_month timestamptz, SumMain float, billing_month_main timestamptz);
+--drop table if exists temp_; 
+--CREATE TEMPORARY TABLE temp_all (contract_id int, sum float, analytics varchar(100), document int, month_pay timestamptz, document_at timestamptz, billing_month timestamptz, SumMain float, billing_month_main timestamptz);
 
 drop table if exists temp_dvz;
 CREATE TEMPORARY TABLE temp_dvz (contract_id int, sum float);
@@ -680,7 +688,6 @@ WHERE 1=1
 	and o.is_liquidated =false
 	and exist.contract_id is null
 	and temp_white_list.contract_id is null
-	and (ditogi.SumMain<=0 or ditogi.SumMain is null)
 GROUP BY
 	dgood.contract_id,
 	lrt.id,
@@ -694,3 +701,12 @@ GROUP BY
 	ditogi.SumMain
 ORDER BY
 	dgood.contract_id
+
+	
+--select * from contracts where number = '5140143301';
+--select * from temp_all where contract_id in (select id from contracts where number = '5140143301');
+	
+--select * from temp_payment_day_max;
+--select * from temp_dvz;
+
+--select * from temp_ditogi where contract_id in (select id from contracts where number = '5140143301') ;
