@@ -1,3 +1,75 @@
+select ls.row_id, ls.Номер, ct.* from (
+SELECT ps.[Объект-Показания], ps.[Показания-Счет], ps.[Показание], ps.[Расход], ps.[Итоговый расход]
+	from stack.[Показания счетчиков] as ps
+	where ps.[Дата]='2024-01-31' and ps.[Расчетный месяц]='2024-01-01' and ps.[Типввода]=10 and ps.[Тип]=1
+	group by ps.[Объект-Показания], ps.[Показания-Счет], ps.[Показание], ps.[Расход], ps.[Итоговый расход] 
+	having sum(1)>1 ) as ct
+	left join stack.[Лицевые счета] as ls on ls.row_id =  ct.[Показания-Счет]
+;
+
+
+INSERT INTO stack.[Свойства] ([Виды-Параметры], [Счет-Параметры], ДатНач, ДатКнц, [Объекты-Параметры], [Документ-Параметры], [Структура-Параметры], Значение, Знач2, Знач3, Примечание, [Организация-Параметры], [Параметры-Договор], [ОС-Параметры], [Параметры-УКДоговор], [Объект-Параметры], [фидер-параметры]) VALUES((select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК'), -1, '2023-09-01 00:00:00.000', '2045-05-09 00:00:00.000', -1, -1, -1, 1, 0.0, 0.0, N'', -1, 113697 , -1, -1, -1, -1);
+
+
+SELECT top 30 * FROM atom_khk_ul_test_second.stack.[Внешние документы];
+
+select * from stack.[Договор] where row_id = 114317 ;
+
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT *
+  FROM [stack].[Внешние документы]
+  where [Договор-Файл]=116602
+  ;
+
+ 
+select doc.[Документы-Договор], types.[Название], doc.[Дата], doc.[Полный номер]
+	from stack.[Документ] as doc 
+	left join stack.[Типы документов] as types on types.row_id = doc.[Тип документа]
+	where doc.row_id = 29370657;
+
+
+select * from stack.[Внешние документы] where row_id = 1489568 ;
+
+
+SELECT [ROW_ID]
+      ,[ТУГруппа]
+      ,[Уровень ограничения]
+      ,[Уровень ограничения AБ]
+      ,[Время ограничения]
+      ,[Дата частичного]
+      ,[Дата АБ]
+      ,[Дата отключения]
+      ,[Дата АБ исполнителем]
+      ,[Дата ТБ исполнителем]
+      ,[Причина]
+      ,[НастройкиТУ]
+      ,[Время С]
+      ,[Время По]
+      ,[Дата С]
+      ,[Дата По]
+      ,[Мощность субабонентов]
+  FROM [atom_khk_ul].[stack].[Состояние объектов дополнение]
+  where ROW_ID=924304
+
+
+
+
+
+-- ТУ открытые в 2023м году
+select * 
+	from stack.[Лицевые счета]
+	where row_id in (
+						select distinct [Счет-Параметры] 
+							from stack.[Свойства] 
+							where 	[Счет-Параметры] in     (select distinct [Счет-Параметры] from stack.[Свойства] where year([ДатНач]) =2023 and [Счет-Параметры]>0)
+								AND [Счет-Параметры] not in (select distinct [Счет-Параметры] from stack.[Свойства] where year([ДатНач])<>2023 and [Счет-Параметры]>0)
+					)
+;
+
+
+
+
+
 select top 100  (select top 1 Сумма from stack.ls_saldo(ls.row_id, getdate())) as debt, [stack].[Ls_GetSaldo](ls.row_id),ls.* from stack.[Лицевые счета] as ls;
 
 
@@ -1700,30 +1772,6 @@ delete from stack.[Свойства] where [Счет-Параметры] = 51123
 
 
 
-SELECT 	parts.agreement_number as nc_head, parts.Номер as point_number_head, parts.Примечание as point_name_head, parts.АдресЛС as point_adres_head ,
-		points.agreement_number as nc_sub, points.Номер as point_number_sub, points.Примечание as point_name_sub, points.АдресЛС as point_adres_sub
-FROM 	stack.[Связи лицевого] shema, 
-		(select 		stack.[Договор].Номер as agreement_number,
-						stack.[Организации].Название, stack.[Организации].ИНН, stack.[Организации].КПП, stack.[Организации].Адрес,
-						stack.[Лицевые счета].row_id, stack.[Лицевые счета].Номер, stack.[Лицевые счета].Примечание, stack.[Лицевые счета].АдресЛС
-			from 	stack.[Лицевые договора], stack.[Договор], stack.[Лицевые счета], stack.[Организации]
-			where 	stack.[Договор].ROW_ID  = stack.[Лицевые договора].Договор and
-				stack.[Лицевые счета].row_id = stack.[Лицевые договора].Лицевой and
-				stack.[Организации].ROW_ID = stack.[Договор].Плательщик and 
-				'2023-10-30'  between stack.[Лицевые договора].ДатНач and stack.[Лицевые договора].ДатКнц) parts,
-		(select 		stack.[Договор].Номер as agreement_number,
-						stack.[Организации].Название, stack.[Организации].ИНН, stack.[Организации].КПП, stack.[Организации].Адрес,
-						stack.[Лицевые счета].row_id, stack.[Лицевые счета].Номер, stack.[Лицевые счета].Примечание, stack.[Лицевые счета].АдресЛС
-			from 	stack.[Лицевые договора], stack.[Договор], stack.[Лицевые счета], stack.[Организации]
-			where 	stack.[Договор].ROW_ID  = stack.[Лицевые договора].Договор and
-				stack.[Лицевые счета].row_id = stack.[Лицевые договора].Лицевой and
-				stack.[Организации].ROW_ID = stack.[Договор].Плательщик and 
-				'2023-10-30'  between stack.[Лицевые договора].ДатНач and stack.[Лицевые договора].ДатКнц)  points 
-WHERE 	('2023-10-30' between shema.ДатНач and shema.ДатКнц) and 
-		shema.[Главный лицевой] = parts.row_id and 
-		shema.[Подчиненный лицевой] = points.row_id ;
-
-
 select 		stack.[Лицевые счета].row_id as row_id_point, 
 						stack.[Договор].ROW_ID as row_id_agr,
 						stack.[Договор].Номер as agreement_number,
@@ -2699,11 +2747,11 @@ select * from atom_khk_ul.stack.[Документ] where row_id in (29951566,300
 					
 					
 					
-
+select * from (
 SELECT 	docs.[row_id],
-		agr.[Номер], 
+		agr.[Номер] as [Номер договора], 
 		docs.[Дата], 
-		docs.[Номер], 
+		docs.[Номер] as [Номер документа], 
 		docs.[Сумма], 
 		docs.[Примечание], 
 		docs.[РасчМесяц], 
@@ -2723,11 +2771,12 @@ SELECT 	docs.[row_id],
 	from (select * 
 				from atom_khk_ul.stack.[Документ] 
 				where [Тип Документа]=21 -- оплата
-						and [ВидСчета]=1
-						and [Дата] >='2023-06-01'
+						--and [ВидСчета]=1
+						and [Дата] >='2024-01-01'
 				) docs
 	inner join atom_khk_ul.stack.[Договор] agr on agr.ROW_ID = docs.[Документы-Договор]
-	order by docs.[Дата], agr.[Номер]
+	) as ct
+where [Видплатежа]='Эквайринг'
 	;
 	
 select * from atom_khk_ul.stack.[Документ] where row_id in (29324308,29328686,29329780,29423219,29422090,29422105,29422108,29423226,29423229,29423272,29422675,29423333,29422083,29422086);
