@@ -1,3 +1,181 @@
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=113735;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=113927;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116084;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116766;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114047;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114474;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114601;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114632;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115699;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=118365;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=118127;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115961;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112399;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112461;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112472;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114212;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114697;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116173;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112498;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112499;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112514;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112556;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=118116;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115100;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116328;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112661;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112714;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115199;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=117850;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=117853;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=117854;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116541;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116548;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114578;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114617;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114626;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115659;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115690;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115719;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=118340;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115730;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115738;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115937;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115982;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115987;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116000;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116006;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112451;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112468;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114217;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114224;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114260;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114263;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114285;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114653;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114665;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114667;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114676;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114686;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116150;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116152;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116155;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116156;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116158;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116160;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116166;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=117881;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112492;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112511;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114378;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114756;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114764;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114765;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114778;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115099;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116287;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116298;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116331;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116365;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116372;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112682;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112699;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114060;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114067;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114071;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114575;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114580;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114591;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114598;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114608;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114620;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114630;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115651;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115674;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115681;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115696;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115707;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115709;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115713;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115729;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115935;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115939;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115944;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115945;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115950;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115996;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116009;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112388;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112395;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112398;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112418;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112434;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112444;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112448;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112460;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112465;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112466;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114198;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114234;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114245;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114257;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114660;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114666;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114673;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114682;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116151;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116153;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116157;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116179;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116190;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112480;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112489;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112530;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112555;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114376;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112593;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115089;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115101;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116322;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116355;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116356;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116363;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112685;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112710;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112712;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112718;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112738;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115114;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114380;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116014;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116019;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116026;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116475;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112625;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114871;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=118144;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116604;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=113684;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=113710;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115847;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116680;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116723;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116041;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116050;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116090;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116477;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116529;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=116769;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=117940;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=118138;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114093;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114107;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=115677;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=114275;
+delete from stack.[Свойства] where [Виды-Параметры]=(select top 1 row_id from stack.[Виды параметров] where [Название] = 'ОТКАЗ_БДОК') and [Параметры-Договор]=112536;
+
+
+
 select ls.row_id, ls.Номер, ct.* from (
 SELECT ps.[Объект-Показания], ps.[Показания-Счет], ps.[Показание], ps.[Расход], ps.[Итоговый расход]
 	from stack.[Показания счетчиков] as ps
@@ -1810,7 +1988,7 @@ FROM 	stack.[Связи лицевого] shema,
 				stack.[Лицевые счета].row_id = stack.[Лицевые договора].Лицевой and
 				stack.[Организации].ROW_ID = stack.[Договор].Плательщик and 
 				GETDATE ()  between stack.[Лицевые договора].ДатНач and stack.[Лицевые договора].ДатКнц)  points 
-WHERE 	('2023-01-31' between shema.ДатНач and shema.ДатКнц) and 
+WHERE 	('2024-01-31' between shema.ДатНач and shema.ДатКнц) and 
 		shema.[Главный лицевой] = parts.row_id and 
 		shema.[Подчиненный лицевой] = points.row_id ;
 
@@ -2772,11 +2950,12 @@ SELECT 	docs.[row_id],
 				from atom_khk_ul.stack.[Документ] 
 				where [Тип Документа]=21 -- оплата
 						--and [ВидСчета]=1
-						and [Дата] >='2024-01-01'
+						and [Дата] >='2024-02-01'
 				) docs
 	inner join atom_khk_ul.stack.[Договор] agr on agr.ROW_ID = docs.[Документы-Договор]
 	) as ct
 where [Видплатежа]='Эквайринг'
+order by row_id
 	;
 	
 select * from atom_khk_ul.stack.[Документ] where row_id in (29324308,29328686,29329780,29423219,29422090,29422105,29422108,29423226,29423229,29423272,29422675,29423333,29422083,29422086);
