@@ -2775,7 +2775,7 @@ SELECT 	docs.[row_id],
 				from atom_khk_ul.stack.[Документ] 
 				where [Тип Документа]=21 -- оплата
 						--and [ВидСчета]=1
-						and [Дата] >='2024-03-20'
+						and [Дата] >='2024-04-01'
 				) docs
 	inner join atom_khk_ul.stack.[Договор] agr on agr.ROW_ID = docs.[Документы-Договор]
 	) as ct
